@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "rozetka-frontend-4-"
+version = "0.1.0"
+description = ""
+authors = ["Dima2009-crupto <dimaparoldima1234@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+flask = "^3.1.0"
+requests = "^2.32.3"
+flask-login = "^0.6.3"
+python-dotenv = "^1.0.1"
+flask-wtf = "^1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
